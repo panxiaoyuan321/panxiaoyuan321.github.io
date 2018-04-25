@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap的css文件 -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <!-- 引入jquery -->
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <!-- 引入bootstrap的js文件 -->
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+
+    <title>bootstrapr模板</title>
+
+    <style>
+        .right h2 {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0px;
+        }
+
+        .right .product a {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">我的LOGO</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="">频道1</a></li>
+                <li><a href="">频道2</a></li>
+                <li><a href="">频道3</a></li>
+                <li><a href="">频道4</a></li>
+              </ul>
+
+            <form class="navbar-form navbar-right">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container-fluid">
+          <div class="left col-sm-2 hidden-xs">
+                <div class="list-group">
+                        <a href="" class="list-group-item active">左侧导航1</a>
+                        <a href="" class="list-group-item">左侧导航2</a>
+                        <a href="" class="list-group-item">左侧导航3</a>
+                        <a href="" class="list-group-item">左侧导航4</a>
+                        <a href="" class="list-group-item">左侧导航5</a>
+                        <a href="" class="list-group-item">左侧导航6</a>
+                        <a href="" class="list-group-item">左侧导航7</a>
+                        <a href="" class="list-group-item">左侧导航8</a>
+                        <a href="" class="list-group-item">左侧导航9</a>
+                        <a href="" class="list-group-item">左侧导航10</a>
+                      </div>
+          </div>
+          <div class="right col-sm-10">
+              <h2>商品</h2>
+              <div class="products">
+                  <div class="product col-xs-6 col-sm-3">
+                      <a href="">
+                          <img src="./img/16.jpg"  class="img-responsive img-circle img-thumbnail" alt="">
+                          <p class="title">标题</p>
+                          <p class="subtitle">副标题</p>
+                      </a>
+                  </div>
+                  <div class="product  col-xs-6  col-sm-3">
+                      <a href="">
+                          <img src="./img/17.jpg"  class="img-responsive img-circle img-thumbnail" alt="">
+                          <p class="title">标题</p>
+                          <p class="subtitle">副标题</p>
+                      </a>
+                  </div>
+                  <div class="product  col-xs-6  col-sm-3">
+                      <a href="">
+                          <img src="./img/18.jpg"  class="img-responsive img-circle img-thumbnail" alt="">
+                          <p class="title">标题</p>
+                          <p class="subtitle">副标题</p>
+                      </a>
+                  </div>
+                  <div class="product  col-xs-6  col-sm-3">
+                      <a href="">
+                          <img src="./img/19.jpg" class="img-responsive img-circle img-thumbnail" alt="">
+                          <p class="title">标题</p>
+                          <p class="subtitle">副标题</p>
+                      </a>
+                  </div>
+              </div>
+
+
+              <h2>表格</h2>
+              <div class="table-responsive">
+                  <table class="table">
+                      <thead>
+                          <tr>
+                              <th>id</th>
+                              <th>姓名</th>
+                              <th>性别</th>
+                              <th>爱好</th>
+                              <th>是否爱学习</th>
+                              <th>是否有女朋友</th>
+                          </tr>
+                      </thead>
+
+                      <tr>
+                          <td>20</td>
+                          <td>小王</td>
+                          <td>男</td>
+                          <td>女</td>
+                          <td>爱</td>
+                          <td>没有</td>
+                      </tr>
+                      <tr>
+                          <td>20</td>
+                          <td>小王</td>
+                          <td>男</td>
+                          <td>女</td>
+                          <td>爱</td>
+                          <td>没有</td>
+                      </tr>
+                      <tr>
+                          <td>20</td>
+                          <td>小王</td>
+                          <td>男</td>
+                          <td>女</td>
+                          <td>爱</td>
+                          <td>没有</td>
+                      </tr>
+                      <tr>
+                          <td>20</td>
+                          <td>小王</td>
+                          <td>男</td>
+                          <td>女</td>
+                          <td>爱</td>
+                          <td>没有</td>
+                      </tr>
+                      <tr>
+                          <td>20</td>
+                          <td>小王</td>
+                          <td>男</td>
+                          <td>女</td>
+                          <td>爱</td>
+                          <td>没有</td>
+                      </tr>
+                      <tr>
+                          <td>20</td>
+                          <td>小王</td>
+                          <td>男</td>
+                          <td>女</td>
+                          <td>爱</td>
+                          <td>没有</td>
+                      </tr>
+                      <tr>
+                          <td>20</td>
+                          <td>小王</td>
+                          <td>男</td>
+                          <td>女</td>
+                          <td>爱</td>
+                          <td>没有</td>
+                      </tr>
+                      <tr>
+                          <td>20</td>
+                          <td>小王</td>
+                          <td>男</td>
+                          <td>女</td>
+                          <td>爱</td>
+                          <td>没有</td>
+                      </tr>
+                      <tr>
+                          <td>20</td>
+                          <td>小王</td>
+                          <td>男</td>
+                          <td>女</td>
+                          <td>爱</td>
+                          <td>没有</td>
+                      </tr>
+                      <tr>
+                          <td>20</td>
+                          <td>小王</td>
+                          <td>男</td>
+                          <td>女</td>
+                          <td>爱</td>
+                          <td>没有</td>
+                      </tr>
+                    
+                  </table>
+              </div>
+
+          </div>
+      </main>
+</body>
+</html>
